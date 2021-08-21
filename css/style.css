@@ -1,6 +1,7 @@
 body {
  margin: 0px;
  padding: 0px;
+ background-color: #000001;
 }
 
 #header{
@@ -17,13 +18,13 @@ body {
 #menu {
     position:absolute;
     width: 100%;
-    background-color: dimgray;
+    background-color: rgb(69, 78, 81);
 }
 
 #menu ul {
     padding:0px;
     margin:0px;
-    background-color: dimgray;
+    background-color: rgb(69, 78, 81);
     list-style:none;
     font-family: 'Recursive', sans-serif;
 }
@@ -31,17 +32,13 @@ body {
 
 #menu ul li a {
     padding: 0px 10px;
-    background-color: dimgray;
-    color: #333;
+    background-color: rgb(69, 78, 81);
+    color: #fdfbf7;
     text-decoration: none;
-    border-bottom:3px solid #EDEDED;
+    border-bottom:3px solid rgb(38, 44, 47);
 }
 #menu ul li a:hover {
-    background-color:#D6D6D6;
+    background-color:#202425;
     color: #fa9005;
     border-bottom:3px solid #fa9005;
-}
-
-#menu ul li {
-
 }
