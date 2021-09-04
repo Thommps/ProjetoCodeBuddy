@@ -22,7 +22,6 @@ body {
     height: 40px;
     background-color: rgb(69, 78, 81);
     display: flex;
-    border-bottom:3px solid rgb(38, 44, 47);
     align-items: center;
 }
 
@@ -38,22 +37,30 @@ body {
 }
 
 #menu ul li {
-    padding: 5px;
+    margin: 5px;
     border-right: 2px seashell solid;
 }
 
 #menu ul li a {
-    padding: 0px 10px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
     background-color: rgb(69, 78, 81);
+    border-bottom:3px solid rgb(38, 44, 47);
     color: #fdfbf7;
     text-decoration: none;
-    border-bottom:3px solid rgb(38, 44, 47);
+    box-sizing: border-box;
 }
 
 #menu ul li a:hover {
     background-color:#202425;
     color: #fa9005;
     border-bottom:3px solid #fa9005;
+}
+
+#menu ul li:hover {
+    background-color:#202425;
+    color: #fa9005;
 }
 
 .conteiner-tab {
